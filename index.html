@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Multi Calculadora </title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Calculadora soma</h1>
+        <input type="number" id="numero1" placeholder="Digite o primeiro número">
+        <input type="number" id="numero2" placeholder="Digite o segundo número">
+
+        <button onclick="somar()"> Calcular Soma</button>
+
+        <h2 id="resultado1"> Resultado:</h2>
+    </section>
+
+    <section class="container">
+        <h1>Converter Celsius para Fahrenheit</h1>
+        <input type="number" id="celsius" placeholder="Digite a temperatura"> 
+
+        <button onclick="converter()"> Converter </button>
+
+        <h2 id="resultado2"> Resultado </h2>  
+
+    </section>
+        <section class="container">
+            <h1>Calcular o volume de uma lata de oleo, utilizando a fórmula VOLUME</h1>
+            <input type="number" id="altura" placeholder="Digite a altura">
+            <input type="number" id="raio" placeholder="Digite a altura">
+
+            <button onclick="calculovolume()"> Calcular </button>
+
+            <h2 id="resultado3"> Resultado </h2>
+        </section>
+
+        <section class="container">
+            <h1>calcule o comprimento</h1>
+             <input type="number" id="alturax" placeholder="Digite a altura">
+              <input type="number" id="largura" placeholder="Digite a largura">
+               <input type="number" id="comprimento" placeholder="Digite o comprimento">
+
+               <button onclick="Xcomprimento()" > Resultado </button>
+
+               <h2 id="resultado4"> resultado</h2>
+        </section>
+
+   <script src="JS/javascript.js"></script>
+</body>
+</html>
